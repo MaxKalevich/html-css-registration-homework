@@ -1,0 +1,124 @@
+@media screen and (max-width: 772px) {
+    body {
+        height: 626px;
+    }
+
+    .authorization-window {
+        padding: 40px;
+        width: 303px;
+        height: 458px;
+    }
+
+    .authorization-window__sign-up-form__input {
+        width: 219px;
+        font-size: 14px;
+    }
+
+    .authorization-window__button-wrapper {
+        width: 185px;
+        font-size: 19px;
+    }
+
+    .authorization-window__sign-up-form {
+        margin-top: 64px;
+    }
+
+    .authorization-window__sign-up-form__item-group {
+        height: 282px;
+    }
+
+    .sign-up-form__register-btn {
+        width: 141px;
+        height: 27px;
+        font-size: 13px;
+    }
+
+    .authorization-window__checkbox-label__checkbox+label {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    body {
+        height: 812px;
+    }
+
+    .authorization-window {
+        top: 50%;
+    }
+
+    .authorization-window {
+        padding: 40px;
+        width: 303px;
+        height: 458px;
+    }
+
+    .authorization-window__sign-up-form__input {
+        width: 219px;
+        font-size: 14px;
+    }
+
+    .authorization-window__button-wrapper {
+        width: 185px;
+        font-size: 19px;
+    }
+
+    .authorization-window__sign-up-form {
+        margin-top: 64px;
+    }
+
+    .authorization-window__sign-up-form__item-group {
+        height: 282px;
+    }
+
+    .sign-up-form__register-btn {
+        width: 141px;
+        height: 27px;
+        font-size: 13px;
+    }
+
+    .authorization-window__checkbox-label__checkbox+label {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        height: 626px;
+    }
+
+    .authorization-window {
+        padding: 40px;
+        width: 269px;
+        height: 385px;
+        top: 50%;
+    }
+
+    .authorization-window__sign-up-form__input {
+        width: 191px;
+        font-size: 12px;
+    }
+
+    .authorization-window__button-wrapper {
+        width: 169px;
+        font-size: 17px;
+    }
+
+    .authorization-window__sign-up-form {
+        margin-top: 38px;
+    }
+
+    .authorization-window__sign-up-form__item-group {
+        height: 240px;
+    }
+
+    .sign-up-form__register-btn {
+        width: 141px;
+        height: 27px;
+        font-size: 13px;
+    }
+
+    .authorization-window__checkbox-label__checkbox+label {
+        font-size: 13px;
+    }
+}
