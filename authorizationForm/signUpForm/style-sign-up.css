@@ -88,7 +88,7 @@ body {
 }
 
 .authorization-window__button-wrapper {
-    width: 211px;
+    width: 349px;
     list-style-type: none;
     font-family: "Proxima Nova", serif;
     text-transform: uppercase;
@@ -137,6 +137,7 @@ a {
 
 .authorization-window__checkbox-label {
     font-family: "Proxima Nova", serif;
+    margin-top: 25px;
     font-size: 15px;
     color: #ffffff;
     font-weight: 300;
@@ -216,7 +217,11 @@ a {
 }
 
 .auth-form-form2 {
-    height: 109px;
+    margin-top: 54px;
+    height: 97px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .btn-form2 {
