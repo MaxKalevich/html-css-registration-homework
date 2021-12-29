@@ -1,0 +1,187 @@
+@media screen and (max-width: 768px) {
+    body {
+        height: 646px;
+    }
+
+    .authorization-window {
+        padding: 40px;
+        width: 303px;
+        height: 458px;
+        left: 50%;
+        top: 50%;
+    }
+
+    .authorization-window__sign-up-form__input {
+        width: 219px;
+        font-size: 14px;
+    }
+
+    .authorization-window__sign-up-form {
+        margin-top: 64px;
+    }
+
+    .authorization-window__sign-up-form__item-group {
+        margin-top: 45px;
+        height: 281px;
+        width: 222px;
+    }
+
+    .authorization-window__button-wrapper {
+        width: 222px;
+        font-size: 19px;
+    }
+
+    .sign-up-form__register-btn {
+        width: 141px;
+        height: 27px;
+        font-size: 15px;
+    }
+
+    .authorization-window__checkbox-label__checkbox+label {
+        margin-top: 25px;
+        font-size: 13px;
+    }
+
+    .sign-up-form__forgot-password-link {
+        font-size: 13px;
+    }
+
+    #sign-in:checked ~ .auth-form2 {
+        display: block;
+        width: 223px;
+    }
+
+    .auth-form-form2 {
+        margin-top: 20px;
+        height: 97px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    body {
+        height: 812px;
+    }
+
+    .authorization-window {
+        top: 40%;
+        padding: 40px;
+        width: 303px;
+        height: 458px;
+    }
+
+    .authorization-window__sign-up-form__input {
+        width: 219px;
+        font-size: 14px;
+    }
+
+    .authorization-window__sign-up-form {
+        margin-top: 64px;
+    }
+
+    .authorization-window__button-wrapper {
+        width: 223px;
+    }
+
+    .authorization-window__sign-up-form__item-group {
+        margin-top: 63px;
+        height: 282px;
+        width: 222px;
+    }
+
+    .sign-up-form__register-btn {
+        width: 141px;
+        height: 27px;
+        font-size: 13px;
+    }
+
+    .authorization-window__checkbox-label__checkbox+label {
+        margin-top: 25px;
+        font-size: 15px;
+    }
+
+    .sign-up-form__forgot-password-link {
+        font-size: 13px;
+    }
+
+    #sign-in:checked ~ .auth-form2 {
+        display: block;
+        width: 223px;
+    }
+
+    .auth-form-form2 {
+        margin-top: 20px;
+        height: 97px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        height: 626px;
+    }
+
+    .authorization-window__sign-up-form__item-group {
+        width: 190px;
+        height: 81px;
+        margin-top: 39px;
+    }
+
+    .authorization-window {
+        padding: 40px;
+        width: 269px;
+        height: 385px;
+        top: 50%;
+    }
+
+    .authorization-window__sign-up-form__input {
+        width: 191px;
+        font-size: 12px;
+    }
+
+    .authorization-window__button-wrapper {
+        width: 223px;
+        font-size: 17px;
+    }
+
+    .authorization-window__sign-up-form {
+        margin-top: 38px;
+    }
+
+    .sign-up-form__register-btn {
+        margin-top: 20px;
+        width: 141px;
+        height: 27px;
+        font-size: 13px;
+    }
+
+    .authorization-window__checkbox-label__checkbox+label {
+        font-size: 11px;
+    }
+
+    #sign-in:checked ~ .auth-form2 {
+        display: block;
+        width: 191px;
+    }
+
+    .btn-form2 {
+        margin-top: 73px;
+    }
+
+    .sign-up-form__forgot-password-link {
+        margin-top: 13px;
+        font-size: 13px;
+    }
+
+    .authorization-window__sign-up-form__input {
+        margin-top: 35px;
+    }
+
+    .authorization-window__checkbox-label {
+        margin-top: 30px;
+    }
+}

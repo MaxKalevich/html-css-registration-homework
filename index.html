@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="authorizationForm/signUpForm/style-sign-up.css">
+    <link rel="stylesheet" href="authorizationForm/signUpForm/adaptive-styles-sign-up.css">
+    <title>Authorization-form</title>
+</head>
+<body>
+<div class="authorization-window">
+    <div class="authorization-window__button-wrapper">
+        <input class="authorization-window__input-btn" type="radio" name="sign" id="sign-in">
+        <input class="authorization-window__input-btn" type="radio" name="sign" id="sign-up" checked>
+        <label class="sign-tab authorization-window__btn-sign-in" for="sign-in">Sign In</label>
+        <label class="sign-tab authorization-window__btn-sign-up" for="sign-up">Sign Up</label>
+
+    <form class="form auth-form1" action="https://reqres.in/api/register" method="get">
+        <div class="authorization-window__sign-up-form__item-group">
+            <label for="mobile-phone">
+                <input class="authorization-window__sign-up-form__input" type="tel" name="mobile-phone" placeholder="Mobile Phone" id="mobile-phone" pattern="^\+[0-9]{12}$" required>
+            </label>
+            <label for="email-id">
+                <input class="authorization-window__sign-up-form__input" type="email" name="email-id" placeholder="Email ID" id="email-id" required>
+            </label>
+            <label for="password-two">
+                <input class="authorization-window__sign-up-form__input" type="password" minlength="4" maxlength="10" name="password" placeholder="Password" id="password-two" required>
+            </label>
+                <input class="authorization-window__checkbox-label__checkbox" type="checkbox" id="checkbox" checked>
+            <label class="authorization-window__checkbox-label" for="checkbox">
+                I agree to terms and conditions
+            </label>
+            <button class="sign-up-form__register-btn" type="submit">Register</button>
+        </div>
+    </form>
+    <form class="form auth-form2" action="https://reqres.in/api/login" method="get">
+        <div class="authorization-window__sign-in-form__item-group auth-form-form2">
+            <label for="email">
+                <input class="authorization-window__sign-up-form__input" type="email" name="email" placeholder="Email" id="email" required>
+            </label>
+            <label for="password">
+                <input class="authorization-window__sign-up-form__input" type="password" minlength="4" maxlength="10" name="password" placeholder="Password" id="password" required>
+            </label>
+        </div>
+        <input class="authorization-window__checkbox-label__checkbox" type="checkbox" id="checkbox-second" checked>
+        <label class="authorization-window__checkbox-label" for="checkbox-second">
+            Keep me logged in
+        </label>
+        <button class="sign-up-form__register-btn btn-form2" type="submit">Login</button>
+        <a class="sign-up-form__forgot-password-link" href="#">Forgot password?</a>
+    </form>
+    </div>
+</div>
+</body>
+</html>
