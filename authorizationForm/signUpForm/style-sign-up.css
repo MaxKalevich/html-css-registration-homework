@@ -41,7 +41,12 @@ body {
     margin-top: 70px;
 }
 
+.authorization-window__sign-in-form {
+    margin-top: 70px;
+}
+
 .sign-up-form__register-btn {
+    cursor: pointer;
     display: block;
     margin: 0 auto;
     width: 196px;
@@ -64,6 +69,8 @@ body {
 
 .authorization-window__sign-up-form__item-group {
     display: flex;
+    width: 344px;
+    margin-top: 81px;
     flex-direction: column;
     height: 340px;
     justify-content: space-between;
@@ -81,9 +88,7 @@ body {
 }
 
 .authorization-window__button-wrapper {
-    display: flex;
     width: 211px;
-    justify-content: space-between;
     list-style-type: none;
     font-family: "Proxima Nova", serif;
     text-transform: uppercase;
@@ -171,4 +176,55 @@ a:hover,
 a {
     text-decoration: none;
     color: #fff;
+}
+
+.authorization-window__btn-wrapper {
+    display: flex;
+    position: relative;
+}
+
+.form {
+    position: relative;
+    display: none;
+}
+
+.sign-tab {
+    text-align: center;
+    width: 211px;
+}
+
+.authorization-window__input-btn {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#sign-up:checked ~ .authorization-window__btn-sign-up {
+    border-bottom: 3px #ffab1a solid;
+}
+#sign-up:checked ~ .auth-form1 {
+    display: block;
+}
+
+#sign-in:checked ~ .authorization-window__btn-sign-in {
+    border-bottom: 3px #ffab1a solid;
+}
+#sign-in:checked ~ .auth-form2 {
+    display: block;
+    width: 345px;
+}
+
+.auth-form-form2 {
+    height: 109px;
+}
+
+.btn-form2 {
+    margin-top: 130px;
+}
+
+.sign-up-form__forgot-password-link {
+    margin-top: 15px;
+    text-align: center;
+    display: block;
 }
