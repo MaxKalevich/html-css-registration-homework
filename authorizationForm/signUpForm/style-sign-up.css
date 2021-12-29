@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/Layer.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 797px;
+}
+
+@font-face {
+    font-family: "Proxima Nova T";
+    src: url("../fonts/ProximaNovaT-Thin.woff") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("../fonts/ProximaNova-Light.woff") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.authorization-window {
+    padding: 40px;
+    width: 429px;
+    height: 545px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.65);
+    box-shadow: -4px 54px 35px rgba(0,0,0,0.58);
+}
+
+.authorization-window__sign-up-form {
+    margin-top: 70px;
+}
+
+.sign-up-form__register-btn {
+    display: block;
+    margin: 0 auto;
+    width: 196px;
+    height: 39px;
+    border-radius: 20px;
+    background-color: #f57f17;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Proxima Nova", serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    border: none;
+}
+
+.sign-up-form__register-btn:active {
+    transform: scale(0.95);
+}
+
+.authorization-window__sign-up-form__item-group {
+    display: flex;
+    flex-direction: column;
+    height: 340px;
+    justify-content: space-between;
+}
+
+.authorization-window__checkbox-text {
+    font-family: "Proxima Nova", serif;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.authorization-window__checkbox {
+    width: 220px;
+}
+
+.authorization-window__button-wrapper {
+    display: flex;
+    width: 211px;
+    justify-content: space-between;
+    list-style-type: none;
+    font-family: "Proxima Nova", serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.authorization-window__sign-up-form__input {
+    background-color: rgba(0,0,0,0);
+    font-family: "Proxima Nova T", serif;
+    border: none;
+    border-bottom: 1px solid #fbfbfb;
+    font-weight: bold;
+    width: 344px;
+    font-size: 17px;
+    padding-left: 3px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+input {
+    outline:none;
+}
+
+input::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.authorization-window__button-wrapper__sign-up {
+    border-bottom: 3px #ffab1a solid;
+    width: 87px;
+}
+
+a {
+    cursor: pointer;
+    text-decoration:none;
+}
+
+.authorization-window__checkbox-label__checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.authorization-window__checkbox-label {
+    font-family: "Proxima Nova", serif;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 300;
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+
+.authorization-window__checkbox-label__checkbox+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+.authorization-window__checkbox-label__checkbox+label::before {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #adb5bd;
+    border-radius: 3px;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+
+.authorization-window__checkbox-label__checkbox:checked+label::before {
+    border-color: #215aa7;
+    background-color: #215aa7;
+    background-image: url("../images/checkmark_83735.svg");
+}
+
+a:active,
+a:hover,
+a {
+    text-decoration: none;
+    color: #fff;
+}
