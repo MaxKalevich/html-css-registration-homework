@@ -7,6 +7,8 @@
         padding: 40px;
         width: 303px;
         height: 458px;
+        left: 50%;
+        top: 50%;
     }
 
     .authorization-window__sign-up-form__input {
@@ -24,13 +26,9 @@
         width: 222px;
     }
 
-    .authorization-window {
-        left: 50%;
-        top: 50%;
-    }
-
     .authorization-window__button-wrapper {
         width: 222px;
+        font-size: 19px;
     }
 
     .sign-up-form__register-btn {
@@ -40,16 +38,8 @@
     }
 
     .authorization-window__checkbox-label__checkbox+label {
-        font-size: 13px;
-    }
-
-    .authorization-window__button-wrapper {
-        font-size: 19px;
-    }
-
-    .authorization-window__checkbox-label__checkbox+label {
         margin-top: 25px;
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .sign-up-form__forgot-password-link {
@@ -76,10 +66,7 @@
     }
 
     .authorization-window {
-        top: 50%;
-    }
-
-    .authorization-window {
+        top: 40%;
         padding: 40px;
         width: 303px;
         height: 458px;
@@ -139,9 +126,9 @@
     }
 
     .authorization-window__sign-up-form__item-group {
-        margin-top: 63px;
-        height: 282px;
         width: 190px;
+        height: 81px;
+        margin-top: 39px;
     }
 
     .authorization-window {
@@ -165,12 +152,8 @@
         margin-top: 38px;
     }
 
-    .authorization-window__sign-up-form__item-group {
-        height: 254px;
-        margin-top: 39px;
-    }
-
     .sign-up-form__register-btn {
+        margin-top: 20px;
         width: 141px;
         height: 27px;
         font-size: 13px;
@@ -178,11 +161,6 @@
 
     .authorization-window__checkbox-label__checkbox+label {
         font-size: 11px;
-    }
-
-    .authorization-window__sign-in-form__item-group {
-        height: 81px;
-        margin-top: 39px;
     }
 
     #sign-in:checked ~ .auth-form2 {
